@@ -124,6 +124,7 @@ nav ul li{
     letter-spacing: 0.8px;
     font-weight: normal;
     margin: 0;
+    width: 575px;
     
 }
 
@@ -154,9 +155,8 @@ nav ul li{
 /* section-1 */
 
 .section-1 {
-    /* padding: 5%; */
+    padding-bottom: 130px;
     background-color: #d6f1e4;
-    /* overflow: hidden; */
 }
 
 .section-1 h2 {
@@ -176,11 +176,6 @@ nav ul li{
 
 
 /* section-1-top */
-
-
-.section-1-top {
-    /* margin: 50px 0; */
-}
 
 .section-1-top h2 { 
     text-align: center;
@@ -343,7 +338,8 @@ nav ul li{
 
 .section-3 a {
      color: #2c2d2c;
-     font-size: 2rem;
+     font-family: 'Offside';
+     font-size: 2.5rem;
      margin: 100px;
      display: inline-block;
      width: 17%;
@@ -449,6 +445,7 @@ footer {
     .header-mid h1 {
         
         font-size: 4.8rem;
+        width: 410px;
         
     }
 
@@ -466,6 +463,7 @@ footer {
 
     .header-mid h1 {
         font-size: 3.8rem;
+        width: 330px;
     }
         
         
@@ -495,18 +493,34 @@ footer {
 
 @MEDIA (max-width: 570px) {
 
+    .section-2-read-more-button,
+    .section-1-read-more-button {
+        font-size: 1.5rem;
+    }
+
+    button {
+        margin: 27px auto;
+        display: block;
+    }
+        
+        
+
+
     .menu,
     .socials {
         display: none;
+    }
+
+    
+    .header-mid h1 {
+        font-size: 2.5rem;
+        width: 220px;
     }
 
     .section-1 {
         height: 1165px;
     }
 
-    .header-mid h1 {
-        font-size: 2.5rem;
-    }
 
     .section-1-top h2 { 
         padding: 50px 0;
@@ -560,7 +574,7 @@ footer {
 
     .section-2-top article,
     .section-2-bottom article {
-        padding-top: 250px;
+        padding-top: 230px;
     }
 
 
@@ -588,10 +602,7 @@ footer {
         text-align: center;
     }
 
-    button {
-        margin: 27px auto;
-        display: block;
-    }
+    
 
     .section-3 li {
         float: inherit;
@@ -624,6 +635,13 @@ footer {
 
 
 @media (max-width: 400px) {
+
+    .section-2-read-more-button,
+    .section-1-read-more-button {
+        
+        font-size: 1.3rem;
+        
+    }
 
     p {
         font-size: 1.3rem;
