@@ -76,6 +76,10 @@ header nav{
     padding: 30px 0;
 }
 
+.topnav {
+    display: none;
+}
+
 nav a {
     float: left;
 }
@@ -415,6 +419,11 @@ div.form {
         margin: 27px auto;
         display: block;
     }
+
+    .topnav {
+        display: block;
+        padding: 0px 24px;
+    }
         
     .menu,
     .socials {
@@ -424,6 +433,8 @@ div.form {
     .header-mid h1 {
         font-size: 2.5rem;
         width: 220px;
+        position: absolute;
+        top: 100px;
     }
 
     .section-1 {
@@ -559,3 +570,42 @@ div.form {
         font-size: 1.3rem;
     }
 }
+
+
+
+
+
+
+/* mobile menu */
+
+.topnav #myLinks {
+    display: none;
+    background: #2c2d2cab;
+    height: 100vw;
+}
+
+.topnav a {
+    color: white;
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    text-align: right;
+  }
+
+.topnav a:hover {
+    color: black;
+    font-size: 2rem;
+    font-weight: 900;
+}
+  
+
+  
+.topnav a.icon {
+    background: #2c2d2c55;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
