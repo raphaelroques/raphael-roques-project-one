@@ -1,10 +1,8 @@
-
 html {
     font-size: 62.5%;
     font-family: 'Offside', cursive;
     font-family: 'Barlow', sans-serif;
 }
-
 
 .wrapper {
     width:90%;
@@ -35,7 +33,6 @@ img {
 h2 {
     font-family: 'Offside';
     font-size: 4.2rem;
-
     margin: 0 0 30px;
 }
 
@@ -59,18 +56,6 @@ button {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* header */
 header {
     background-image: url(images/header-image.png);
@@ -78,7 +63,6 @@ header {
     background-size: cover;
     height: 90vh;
     color: white;
-
 }
 
 header a{
@@ -87,9 +71,7 @@ header a{
     font-size: 2rem;
 }
 
-
 /* header nav */
-
 header nav{
     padding: 30px 0;
 }
@@ -110,9 +92,7 @@ nav ul li{
 }
     
 
-
 /* header-mid */
-
 .header-mid {
     clear: both
 }
@@ -124,8 +104,7 @@ nav ul li{
     letter-spacing: 0.8px;
     font-weight: normal;
     margin: 0;
-    width: 575px;
-    
+    width: 575px;  
 }
 
 .header-mid .socials{
@@ -137,23 +116,9 @@ nav ul li{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* main */
 
 /* section-1 */
-
 .section-1 {
     padding-bottom: 130px;
     background-color: #d6f1e4;
@@ -169,18 +134,13 @@ nav ul li{
     font-family: 'Offside';
     font-size: 2rem;
     border: none;
-
 }
 
 
-
-
 /* section-1-top */
-
 .section-1-top h2 { 
     text-align: center;
-    padding: 100px 0;
-    
+    padding: 100px 0;  
 }
 
 .gallery img {
@@ -194,18 +154,11 @@ nav ul li{
 }
 
 
-
-
-
-
 /* section-1-bottom */
-
 .section-1-bottom {
     margin:50px 0 0;
 }
     
-    
-
 .section-1-bottom-image-container {
     width: 25%;
     float: left;
@@ -219,30 +172,7 @@ nav ul li{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* section-2 */
-
-
-
 .section-2{
     position: relative;
     background-color: #213c28;
@@ -258,7 +188,6 @@ nav ul li{
 }
     
     
-
 /* section-2-top */
 
 .section-2-top article {
@@ -276,8 +205,6 @@ nav ul li{
     height: 500px;
     object-fit: cover;
 }
-
-
 
 
 /* section-2-bottom */
@@ -300,71 +227,26 @@ nav ul li{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* section-3 */
 
 .section-3 {
-    background-color: #d6f1e4;
-    /* height: 200px; */
+    background-color: #d6f1e4;   
 }
 
-/* .section-3 ul {
-    height: 150px;
-} */
-
-.section-3 li{
+.section-3 .wrapper div{
     float: left;
     text-align: center;
-    width: 33.33%;
-    
+    width: 33.33%; 
+    margin: 100px 0;
 }
 
 .section-3 a {
-     color: #2c2d2c;
-     font-family: 'Offside';
-     font-size: 2.5rem;
-     margin: 100px;
-     display: inline-block;
-     width: 17%;
-     text-align: center;
+    color: #2c2d2c;
+    font-family: 'Offside';
+    font-size: 2.5rem;
+    display: inline-block;
+    text-align: center;
 }
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer */
@@ -377,12 +259,8 @@ footer {
 
 .footer-top-container {
     overflow: hidden;
-
-
     padding-top: 40px;
-    padding-bottom: 40px;
-
-    
+    padding-bottom: 40px;   
 }
 
 .form, 
@@ -391,9 +269,6 @@ footer {
     float: left;
 }
     
-    
-
-
 .form {
     width: 60%;
 }
@@ -413,13 +288,6 @@ footer {
     margin: 5px 0;
 }
 
-
-
-
-
-
-
-
 .copyright {
     background-color: #2c2d2c;
     text-align: center;
@@ -434,6 +302,8 @@ footer {
 
 
 
+
+
 /* SMALL DESKTOP */
 
 @MEDIA (max-width: 1000px) {
@@ -443,13 +313,13 @@ footer {
     }
 
     .header-mid h1 {
-        
         font-size: 4.8rem;
         width: 410px;
-        
     }
-
 }
+
+
+
 
 
 
@@ -466,9 +336,6 @@ footer {
         width: 330px;
     }
         
-        
-
-
     nav ul {
         float: right;
         margin: 0px 10px;
@@ -489,6 +356,7 @@ footer {
 }
 
 
+
 /* MOBILE */
 
 @MEDIA (max-width: 570px) {
@@ -503,15 +371,11 @@ footer {
         display: block;
     }
         
-        
-
-
     .menu,
     .socials {
         display: none;
     }
 
-    
     .header-mid h1 {
         font-size: 2.5rem;
         width: 220px;
@@ -521,22 +385,18 @@ footer {
         height: 1165px;
     }
 
-
     .section-1-top h2 { 
         padding: 50px 0;
     }
         
-
     .section-1-bottom-image-container {
         display: none;
     }
 
     .section-1-bottom article {
-        
         width: 100%;
         padding: 0;
-        
-    }
+        }
 
     .gallery img:first-child {
         float: left;
@@ -557,27 +417,21 @@ footer {
         margin-top: 50px;
         height: 35vh;
         object-fit: cover;
-        
-        
     }
 
 
     .section-2-top article,
     .section-2-bottom article {
         width: 100%;
-        /* height: 250px; */
         padding: 0;
         float: none;
         position: relative;
-        
     }
 
     .section-2-top article,
     .section-2-bottom article {
         padding-top: 230px;
     }
-
-
 
     .section-2-top img  {
         position: absolute;
@@ -589,7 +443,6 @@ footer {
         top: 50%;
     }
         
-
     .section-2-top img,
     .section-2-bottom img {
         width: 100%;
@@ -597,23 +450,20 @@ footer {
         object-fit: cover;
     }
 
-
     .section-2 h2 {
         text-align: center;
     }
 
-    
-
-    .section-3 li {
+    .section-3 .wrapper div {
         float: inherit;
         text-align: center;
         width: 100%;
+        margin: 0;
     }
 
     .section-3 a {
         margin: 50px;
     }
-
 
     footer .form {
         width: 100%;
@@ -628,10 +478,10 @@ footer {
     .footer-menu {
         width: 30%;
     }
-        
-        
-
 }
+
+
+
 
 
 @media (max-width: 400px) {
