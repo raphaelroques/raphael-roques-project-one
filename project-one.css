@@ -145,7 +145,11 @@ nav ul li{
 }
 
 .header-mid li {
-    padding: 10px 0;
+    padding: 15px 0;
+}
+
+.header-mid a {
+    font-size: 2.5rem;
 }
 
 
@@ -276,9 +280,13 @@ nav ul li{
 .section-3 a {
     color: #2c2d2c;
     font-family: 'Offside';
-    font-size: 2.5rem;
+    font-size: 4rem;
     display: inline-block;
     text-align: center;
+}
+
+.section-3 h3 {
+    color: #116500;
 }
 
 
@@ -555,7 +563,7 @@ div.form {
     }
 
     .section-3 a {
-        margin: 50px;
+        margin: 40px;
     }
 
     footer .form {
@@ -630,8 +638,9 @@ div.form {
     text-align: right;
   }
 
-.topnav a:hover {
-    color: black;
+.topnav a:hover,
+.topnav a:focus{
+    color: #1eb300;
     font-size: 2rem;
     font-weight: 900;
 }
