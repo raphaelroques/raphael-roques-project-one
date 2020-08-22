@@ -89,7 +89,9 @@ nav a:focus,
 .socials a:hover, 
 .socials a:focus,
 footer a:hover, 
-footer a:focus {
+footer a:focus,
+.section-3 a:hover, 
+.section-3 a:focus {
     color: #1eb300;
 }
 
