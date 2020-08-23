@@ -105,7 +105,7 @@ header nav{
     padding: 30px 0;
 }
 
-.topnav {
+.mobiles-nav {
     display: none;
 }
 
@@ -465,7 +465,7 @@ div.form {
         font-size: 2rem;
     }
 
-    .topnav {
+    .mobiles-nav {
         display: block;
         padding: 0px 24px;
     }
@@ -623,13 +623,13 @@ div.form {
 
 /* mobile menu */
 
-.topnav #myLinks {
+.mobiles-nav .mobile-nav-container {
     display: none;
     background: #2c2d2cab;
     height: 100vw;
 }
 
-.topnav a {
+.mobiles-nav a {
     color: white;
     padding: 10px 20px;
     font-size: 2rem;
@@ -638,8 +638,8 @@ div.form {
     text-align: right;
   }
 
-.topnav a:hover,
-.topnav a:focus{
+.mobiles-nav a:hover,
+.mobiles-nav a:focus{
     color: #1eb300;
     font-size: 2rem;
     font-weight: 900;
@@ -647,7 +647,7 @@ div.form {
   
 
   
-.topnav a.icon {
+.mobiles-nav a.icon {
     background: #2c2d2c55;
     display: block;
     position: absolute;
